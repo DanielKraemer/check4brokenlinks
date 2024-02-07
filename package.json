@@ -1,0 +1,36 @@
+{
+  "name": "broken-link-checker",
+  "version": "1.0.0",
+  "description": "Check a website or files from a directory for broken links",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielKraemer/broken-link-checker.git"
+  },
+  "keywords": [
+    "broken-links"
+  ],
+  "author": "Daniel Kraemer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielKraemer/broken-link-checker/issues"
+  },
+  "homepage": "https://github.com/DanielKraemer/broken-link-checker#readme",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "dotenv": "^16.4.1",
+    "linkinator": "^6.0.4"
+  },
+  "bin": {
+    "broken-link-checker": "index.mjs"
+  }
+}
